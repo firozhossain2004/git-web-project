@@ -109,84 +109,102 @@ header {
 }
 
 /* main style */
-.main-hader{
-font-size: 35px;
-color: #181818;
-font-weight: bold;
-margin-bottom: 5px;
+.main-hader {
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
-.main-pragrape{
-    font-size:14px ;
+
+.main-pragrape {
+    font-size: 14px;
     color: #757575;
 }
+
 .background {
     background-color: #FFF8F3;
 }
-main{
-    max-width:1140px ;
+
+main {
+    max-width: 1140px;
     margin: 0 auto;
-}.aboutme{
+}
+
+.aboutme {
     padding: 100px 150px;
     border-radius: 10px;
     text-align: center;
     margin-top: 130px;
 
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
 }
-.section2{
+
+.section2 {
     text-align: center;
     margin-top: 80px;
 }
-.skills-continar{
+
+.skills-continar {
     display: flex;
     gap: 24px;
     margin-top: 85px;
 }
-.skille{
+
+.skille {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 /* samare stiyle */
-.summary-continer{
+.summary-continer {
     display: flex;
     gap: 100px;
     text-align: left;
     margin-left: 125px;
 }
-.section4 .summ{
+
+.section4 .summ {
     margin-left: 329px;
     margin-bottom: 90px;
     margin-top: 90px;
 }
-.section4 button{
+
+.section4 button {
     margin-left: 570px;
     margin-top: 55px;
 }
+
 /* Footer style */
-footer{
+footer {
     padding: 130px 230px;
     display: flex;
     align-items: center;
-   justify-content: space-around;
-   background-color:#FFF8F3 ;
-   gap: 30px;
+    justify-content: space-around;
+    background-color: #FFF8F3;
+    gap: 30px;
 }
-.footer-colom{
+
+.footer-colom {
     width: 50%;
-   
-   
+
+
 }
-.tiealefoot{
+
+.tiealefoot {
     font-size: 35px;
     font-weight: bold;
     margin-top: -100px;
 }
-footer input[type="text"],footer input[type="email"],footer textarea{
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
     display: block;
     padding: 10px 20px;
     font-size: 14px;
@@ -195,9 +213,10 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     margin-bottom: 25px;
     width: 100%;
 }
+
 .tiealefoo {
     font-weight: 800;
     font-size: 32px;
-   
+
     color: #181818;
 }
