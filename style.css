@@ -220,3 +220,66 @@ footer textarea {
 
     color: #181818;
 }
+@media screen and (max-width:576px) {
+    .skills-continar{
+        flex-direction: column;
+    }
+    .summary-continer{
+        flex-direction: column;
+        margin-left: 0px;
+        padding: 5px;
+        margin-right: 20px;
+    }
+    .section4 .summ {
+        margin-left: 10px;
+    }
+    .section4 button{
+        margin-left: 4px;
+        margin-top: 2px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 2px;
+        margin-top: 109px;
+    }
+    
+.footer-colom{
+    width: 100%;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    width: calc(100% - 60px);
+}
+.aboutme{
+    padding: 0px;
+}
+.about-items{
+    flex-direction: column;
+    
+}
+header {
+    background-image: none;
+    margin-left: 0px;
+}
+.baner, nav{
+    flex-direction: column;
+    margin: 0px;
+    
+}
+.baner-pic{
+    width:90%;
+}
+.newbt ,.mary ,.wellcom{
+    margin-right: 0px;
+}
+.nav-h3{
+    margin-left: 0px;
+}
+.section2 {
+    margin-right: 20px;
+}
+#about{
+ margin-right: 20px;
+}
+}
